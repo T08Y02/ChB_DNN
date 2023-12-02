@@ -101,7 +101,6 @@ def create_model():
     tf.keras.layers.Dense(512, activation='relu'), 
     tf.keras.layers.Dense(2, activation='softmax')  
   ])
-
   
   model.compile(optimizer=tf.keras.optimizers.legacy.Adam(learning_rate=0.001),
                 loss='categorical_crossentropy',
