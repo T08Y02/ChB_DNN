@@ -229,6 +229,4 @@ def try_classification(model_load, class_names):
     plt.show()
     '''
 
-
-
 main()
